@@ -1,6 +1,8 @@
 unit SortThread;
 
-{This unit contains implemention of various sorting algorithms}
+{
+This unit contains implemention of various sorting algorithms
+}
 
 interface
 
