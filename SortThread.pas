@@ -1,5 +1,7 @@
 unit SortThread;
 
+{This unit contains implemention of various sorting algorithms}
+
 interface
 
 uses
