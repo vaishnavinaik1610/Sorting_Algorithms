@@ -8,8 +8,6 @@ uses
   System.Notification, SortThread, Template;
 
 type
-  TShowMessage = reference to procedure (aMsg : String);
-
   TFrm_Main = class(TForm)
     BTN_Sort: TButton;
     Frame_QuickSort: TFrame_Template;
