@@ -1,5 +1,4 @@
 unit SortThread;
-
 {
 This unit contains implemention of various sorting algorithms
 }
@@ -19,7 +18,6 @@ type
     A : Array [0..cMax] of integer;
     FListBox: TMemo;
     FTimeInfo: TLabel;
-    FProc: TProc;
   protected
     procedure Sort; virtual; abstract;
     procedure Execute; override;
@@ -92,7 +90,8 @@ begin
                 begin
                   FTimeInfo.Caption := 'Started sorting . . .';
                 end
-             );  }
+             );
+ }
   Stopwatch := TStopwatch.StartNew;
   Sort();
   Stopwatch.Stop;
