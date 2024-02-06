@@ -8,10 +8,6 @@ uses
   System.Notification, SortThread, Template;
 
 type
-  TFuncOfInt = reference to function(x: Integer): Integer;
-
-  TShowMessage = reference to procedure (aMsg : String);
-
   TFrm_Main = class(TForm)
     BTN_Sort: TButton;
     Frame_QuickSort: TFrame_Template;
