@@ -54,8 +54,6 @@ implementation
 
 uses System.Diagnostics, Main;
 
-{ TNewProcess }
-
 constructor TSortThread.Create(aTemplate: TFrame_Template; aArray: Array of integer);
 var
   i : integer;
